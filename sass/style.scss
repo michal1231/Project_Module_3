@@ -1,6 +1,9 @@
 $color-one: #545454;
 $color-two: #fed136;
 
+$main-font: 'Libre Baskerville', serif;
+$second-font: 'League Spartan', sans-serif;
+
 *,
 *::before,
 *::after {
@@ -14,6 +17,13 @@ body {
     color: $color-one;
     font-size: 18px;
     line-height: 1.5;
+    font-family: $main-font;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $second-font;
 }
 
 section {
@@ -63,6 +73,7 @@ header {
 
     p {
         font-size: 35px;
+        font-style: italic;
     }
 
     button {
