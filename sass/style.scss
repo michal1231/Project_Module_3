@@ -1,0 +1,70 @@
+$color-one: #545454;
+$color-two: #fed136;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    color: $color-one;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/pexels-pixabay-157888.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .nav-content {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 0;
+        font-size: 18px;
+        text-align: right;
+
+        li {
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    button {
+        font-size: 25px;
+        padding: 20px 30px;
+        color: #fff;
+        background-color: $color-two;
+        border: none;
+        border-radius: 5px;
+    }
+}
