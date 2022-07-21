@@ -12,6 +12,12 @@ body {
     text-align: center;
     background-color: #fff;
     color: $color-one;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+section {
+    padding: 96px 0;
 }
 
 header {
@@ -67,4 +73,29 @@ header {
         border: none;
         border-radius: 5px;
     }
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: rgb(191, 189, 189);
+    font-size: 20px;
+    margin-bottom: 65px;
+}
+
+.services i {
+    color: $color-two;
+    font-size: 40px;
+    padding: 15px;
+    border: 5px solid $color-two;
+    border-radius: 50%;
 }
